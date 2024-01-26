@@ -84,25 +84,37 @@ This is a RESTful API for an online bookstore. The API is built using Express.js
 - The front-end application github repository link is ((https://github.com/lavanyamishra/BookStore-Frontend))
 
 ## API Documentation
+   ![Screenshot (32)](https://github.com/lavanyamishra/BookStore-backend/assets/100487476/bed5782d-a786-458c-aef6-87c3edc8dd58)
+![Screenshot (33)](https://github.com/lavanyamishra/BookStore-backend/assets/100487476/60752286-e59a-4c13-8f15-559ba285f586)
+
 
 ### Retrieve Books
 
   - `GET /books`: Get a list of all books.
+ 
+![Screenshot (30)](https://github.com/lavanyamishra/BookStore-backend/assets/100487476/cda30d91-2554-462d-b49c-3616c723eb1d)
+
 
 ### Add a New Book
 
 - `POST /books`: Add a new book.
-  - Request Body: `{ "title": "Book Title", "author": "Author Name", "publishYear": 2022, "otherDetails": "Additional Information" }`
+  - Request Body: `{ "title": "Book Title", "author": "Author Name", "publishYear": 2022 }`
+![Screenshot (28)](https://github.com/lavanyamishra/BookStore-backend/assets/100487476/a9c71062-963f-47a8-ba69-b0f3f818b872)
+
 
 ### Update Book Details
 
 - PUT /books/:id: Update details of a specific book.
 
-- Request Body: `{ "title": "Updated Title", "author": "Updated Author", "publishYear": 2023, "otherDetails": "Updated Information" }`
+- Request Body: `{ "title": "Updated Title", "author": "Updated Author", "publishYear": 2023 }`
+
+![Screenshot (29)](https://github.com/lavanyamishra/BookStore-backend/assets/100487476/4aa98467-9ddd-4a6d-a0c5-b42b412df71c)
 
 ### Delete a Book
 
   - `DELETE /books/:id`: Delete a specific book.
+    ![Screenshot (31)](https://github.com/lavanyamishra/BookStore-backend/assets/100487476/343de877-6bdf-4e15-aaa1-539e82e0a7bf)
+
 
 ### Health Check
 
